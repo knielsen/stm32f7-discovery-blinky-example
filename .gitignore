@@ -1,0 +1,5 @@
+*~
+*.o
+blinky.bin
+blinky.elf
+startup_stm32f746xx.s
