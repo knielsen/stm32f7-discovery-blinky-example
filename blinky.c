@@ -53,11 +53,3 @@ main(void)
   /* NotReached */
   return 0;
 }
-
-
-/* Disable use of static constructors, called from ST startup code. */
-void
-__libc_init_array(void)
-{
-  /* Nothing. */
-}

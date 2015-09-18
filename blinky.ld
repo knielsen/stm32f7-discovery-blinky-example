@@ -17,6 +17,7 @@ SECTIONS
 		KEEP(*(.isr_vector))
 		*(.text*)
 		*(.rodata*)
+		KEEP(*(.init))
 		. = ALIGN(4);
 		_etext = .;
 	} > FLASH
